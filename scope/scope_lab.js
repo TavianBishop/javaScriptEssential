@@ -30,3 +30,13 @@ function show(){
     console.log(functionVar); // Throws ReferenceError
     console.log(functionLet); // Throws ReferenceError
     console.log(functionConst); // Throws ReferenceError
+
+    {
+        let name = "sam";
+        var age = 25;
+        const gender = "male";
+
+        name = "Reagan";
+        age = 30;
+        gender = "female";
+    }
